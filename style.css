@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+
+/* 
+.text-white{
+    @apply bg-red-600
+} */
+
+
+@tailwind utilities;
+/* 
+@layer components{   
+    
+    .btn{
+        @apply bg-red-400 text-white m-4 border-black border-2 px-4 py-2
+    }
+}  */
+
+/* btn class is now appended at the last of components classes layer*/
+
+
